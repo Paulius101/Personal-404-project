@@ -10,21 +10,18 @@ body > header {
     margin-left: calc(50% - 400px);
 }
 
-header > img {
+header > nav {
+    display: inline-block;
+}
+
+nav > img {
     display: inline-block;
     height: 20px;
-}
-
-header > nav {
-
-}
-
-nav > div > h3 {
-
+    float: left;
 }
 
 nav > a {
-
+    display: inline-block;s
 }
 
 body > main {
