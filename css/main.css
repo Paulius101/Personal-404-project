@@ -98,3 +98,25 @@ div > a {
     border: 2px dashed red;
     border-radius: 19px;
 }
+footer {
+    display:inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-top: 200px;
+    }
+
+footer > div:first-of-type {
+    width: 400px;
+    background-color: yellow;
+}
+div > nav {
+
+}
+footer > div:last-of-type {
+    width: 400px;
+    background-color: yellow;
+}
+
+div > nav {
+    
+}
