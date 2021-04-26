@@ -1,5 +1,4 @@
 body {
-    display: inline-block;
     background-color: #4F4287;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -8,6 +7,16 @@ header {
     display: inline-block;    
     width: 800px;
     margin-left: calc(50% - 400px);
+    margin-top: 10px;
+}
+
+header > a:first-of-type{
+    display: inline-block;
+    float: left;
+    margin-left:20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 header > img {
@@ -15,20 +24,24 @@ header > img {
     height: 15px;
     float: left;
 }
+
 header > nav {
     display: inline-block;
-    float: right;
     margin-top: 8px;
+    float: right;
 }
 
 nav > a {
+    color: white;
     display: inline-block;
-    float: right;
+    float: left;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
-nav > a:first-child {
-    display: inline-block;
-    float: left; 
+nav > a:last-of-type {
+    
 }
 
 body > main {
@@ -49,5 +62,6 @@ main > div {
     float: right; 
     margin-left: 10px;
     width: 45%;
+
 
 }
