@@ -72,7 +72,7 @@ div > h1 {
     width: 100%;
     font-size:35px;
     text-transform: uppercase;
-    line-height: 1.6;
+    line-height: 1.4;
     margin: 0;
 }
 
@@ -80,6 +80,7 @@ div > p {
     font-size:16px;
     margin: 0;
     line-height: 1.6;
+    margin-top: 20px;
 }
 
 div > a {
